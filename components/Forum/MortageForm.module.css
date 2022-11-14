@@ -1,0 +1,44 @@
+.formContainer{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.formLabel{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.formInput{
+    padding: 16px;
+    border-radius: 5px;
+    border: .5px solid #ccc;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.formInput:focus{
+    background-color: #0805b443;
+   transition: all 0.2s ease-in-out;
+}
+
+
+.formSubmit{
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #0805b4;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.results{
+    font-size: 24px;
+    color:wheat;
+}
